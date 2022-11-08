@@ -1,0 +1,75 @@
+body{
+    background-color: #181818;
+    color:rgb(167, 238, 214);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+
+}
+.div{
+    background-color: #181818;
+    margin: 5% 13% 5% 13%;
+    border: solid 1px rgb(167, 238, 214);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(167, 238, 214);
+    padding: auto;
+    height: 20rem;
+    /* width: 50rem; */
+    
+}
+.div2{
+    background-color: #181818;
+    border: solid 1px rgb(167, 238, 214);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(167, 238, 214);
+    padding: auto;
+    margin: 5% 13% 5% 13%;
+    /* width: 50rem; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 1.25rem;
+
+}
+.div3{
+    background-color: #181818;
+    padding: auto;
+    margin: 5% 13% 5% 13%;
+    /* width: 50rem; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-size: 1rem;
+
+}
+.input{
+    background-color:#181818;
+    color: rgb(167, 238, 214);
+    width: 80%;
+    height: 2rem;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(167, 238, 214, 0.545);
+}
+::placeholder{
+    color: rgba(167, 238, 214, 0.111);
+}
+.btn{
+    background-color: rgba(167, 238, 214, 0.687);
+    color: #181818;
+    border: #181818 solid 1px;
+    border-radius: 4px;
+    width: 50%;
+    height: 3rem;
+    padding: auto;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    font-weight: bold;
+
+}
+.input:hover{
+    transform: scale(1.05);
+    border: solid 1px #181818;
+    box-shadow: 0 0 10px rgb(167, 238, 214);
+    border-radius: 4px;
+
+}
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(167, 238, 214);
+    background-color: #181818;
+    color: rgb(167, 238, 214);
+}
